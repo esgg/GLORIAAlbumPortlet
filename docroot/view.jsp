@@ -23,6 +23,12 @@
 <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
 <script>
+
+//Check if the user has taken any image in this reservation time and draw it
+
+var imagesAlbum = new Array();
+
+
 $(function() {
     // there's the gallery and the trash
     var $gallery = $( "#gallery" );
@@ -106,52 +112,10 @@ $(function() {
 </style>
 
 <div>
-<table>
+<table id="albumImageCcd"> 
 	<tr>
-		<td>
-			<div class="thumbmail">
-				<div class="imageTitle">
-					<p>SUN</p>
-				</div>
-				<div>
-					<img class="thumbmailImage" src="http://161.72.128.9:8080/RTD_TAD_DB/ServletImage?fileName=000000000000000100000140260ea68f.jpg"/>
-				</div>
-				<div>
-					<button>FITS</button><button>JPG</button>
-				</div>
-			</div>
-		</td>
-		<td>
-			<div class="thumbmail">
-				<div class="imageTitle">
-					<p>SUN</p>
-				</div>
-				<div>
-					<img class="thumbmailImage" src="http://161.72.128.9:8080/RTD_TAD_DB/ServletImage?fileName=000000000000000100000140266c3966.jpg"/>
-				</div>
-				<div>
-					<button>FITS</button><button>JPG</button>
-				</div>
-			</div>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<div class="thumbmail">
-				<div class="imageTitle">
-					<p>SUN</p>
-				</div>
-				<div>
-					<img class="thumbmailImage" src="http://161.72.128.9:8080/RTD_TAD_DB/ServletImage?fileName=000000000000000100000140266d9d2c.jpg"/>
-				</div>
-				<div>
-					<button>FITS</button><button>JPG</button>
-				</div>
-			</div>
-		</td>
-		<td>
-		</td>
 	</tr>
 </table>
 </div>
+
 
